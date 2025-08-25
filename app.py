@@ -49,7 +49,7 @@ except Exception:
 # ----------------------------
 st.set_page_config(page_title="AI Job Copilot — Match & Q&A + Edits", page_icon="🛠️", layout="wide")
 st.title("🛠️ AI Job Copilot — Match & Interview Q&A + Suggested Edits")
-st.caption("Streamlit + Gemini | Match score • Missing skills • Evidence • Q&A • Suggestions ")
+st.caption("Match score • Missing skills • Evidence • Q&A • Suggestions ")
 
 # Configure old SDK (JD parsing + Q&A)
 if "GOOGLE_API_KEY" in st.secrets and st.secrets["GOOGLE_API_KEY"]:
